@@ -1,0 +1,8 @@
+
+<div class="face-snap-card" [ngClass] = "{ snapped : faceSnap.snaps == 1}" > 
+    <h1>{{faceSnap.id}}</h1>
+<h1>{{faceSnap.title | uppercase}}</h1>
+<p>{{faceSnap.description}}</p>
+<button (click)="onViewFaceSnap()">View</button>
+
+</div>
